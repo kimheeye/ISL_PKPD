@@ -13,7 +13,7 @@ Prior to the model fitting and parameter estimation process, the feasible parame
 
 In → **_pk_plasma_** the identified boundaries for the parameters were used to randomly sample within this region and to choose the best fitting model to describe the clinical data, in terms of minimal AIC and RSS values.
 
-**1_intracellular**
+**2_intracellular**
 
 In this section the resulting parameters from 1. were taken and combined with intracellular data of Islatravir to determine the transmission kinetics between the central and intracellular compartment. The kernel of the program → **_pk_intra_linear_** is an ODE-system based on linear kinetics. The main part of the program → **_pk_intra_mmk_** consists of the corresponding ODE-system describing Michaelis-Menten kinetics. 
 
